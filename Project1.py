@@ -1,3 +1,4 @@
+#A program that calculate the net force and the gravitational force
 def convert(value,unit,table):
     return value * table.get(unit.lower(),None)
 mass_units = {"kg":1,"g": 1e-3,"ton": 1000,"mg": 1e-6}
